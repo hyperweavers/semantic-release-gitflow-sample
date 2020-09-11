@@ -1,7 +1,7 @@
 {
   "name": "semantic-release-gitflow-sample",
   "productName": "ElectronApp",
-  "version": "0.0.0",
+  "version": "0.0.0-development",
   "private": true,
   "description": "My Electron application description",
   "author": {
@@ -18,7 +18,9 @@
     "package": "electron-forge package",
     "make": "electron-forge make",
     "publish": "electron-forge publish",
-    "lint": "eslint --ext .ts ."
+    "lint": "eslint --ext .ts .",
+    "prepare-release": "semantic-release --dry-run",
+    "release": "semantic-release"
   },
   "config": {
     "forge": {
@@ -80,6 +82,7 @@
     "eslint-plugin-import": "^2.20.0",
     "fork-ts-checker-webpack-plugin": "^5.0.14",
     "node-loader": "^1.0.1",
+    "semantic-release": "^17.1.1",
     "style-loader": "^1.2.1",
     "ts-loader": "^8.0.2",
     "typescript": "^4.0.2"
