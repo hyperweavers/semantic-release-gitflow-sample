@@ -8,7 +8,7 @@ on:
 
 jobs:
   build:
-    if: "${GITHUB_REF##*/} == 'stable' || (contains(github.event.head_commit.message, '[pre-release]') && ${GITHUB_REF##*/} == 'rc')"
+    if: "!contains(github.event.head_commit.message, '[skip ci]') && ((github.ref#refs/heads/) == 'stable' || (contains(github.event.head_commit.message, '[pre-release]') && (github.ref#refs/heads/) == 'rc'))"
     runs-on: ${{ matrix.os }}
     timeout-minutes: 10
     strategy:
