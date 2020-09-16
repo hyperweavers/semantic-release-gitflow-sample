@@ -29,12 +29,16 @@
         {
           "name": "@electron-forge/maker-squirrel",
           "config": {
-            "name": "App"
+            "name": "ElectronApp"
           }
         },
         {
           "name": "@electron-forge/maker-deb",
-          "config": {}
+          "config": {
+            "options": {
+              "bin": "ElectronApp"
+            }
+          }
         },
         {
           "name": "@electron-forge/maker-zip",
