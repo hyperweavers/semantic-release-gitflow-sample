@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.1.0-rc.1](https://github.com/hyperweavers/semantic-release-gitflow-sample/compare/v1.0.0...v1.1.0-rc.1) (2020-09-17)
+
+
+### Features
+
+* add feature 2 ([#27](https://github.com/hyperweavers/semantic-release-gitflow-sample/issues/27)) ([777a2e6](https://github.com/hyperweavers/semantic-release-gitflow-sample/commit/777a2e6a357be53b28f1c9dda9a9e642c3b9b59e))
+
 # 1.0.0 (2020-09-17)
 
 
