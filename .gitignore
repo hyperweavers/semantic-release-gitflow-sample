@@ -88,5 +88,5 @@ typings/
 # Electron-Forge
 out/
 
-# CI file
+# Semantic release
 .release
