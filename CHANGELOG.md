@@ -3,6 +3,25 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.1.0-rc.2](https://github.com/hyperweavers/semantic-release-gitflow-sample/compare/v1.1.0-rc.1...v1.1.0-rc.2) (2020-09-17)
+
+
+### Bug Fixes
+
+* add fix 1 ([#28](https://github.com/hyperweavers/semantic-release-gitflow-sample/issues/28)) ([e3dc7d3](https://github.com/hyperweavers/semantic-release-gitflow-sample/commit/e3dc7d3731a0c98f87aca92925e1cf6c017fd65f))
+
+
+### Features
+
+* add feature 3 ([#30](https://github.com/hyperweavers/semantic-release-gitflow-sample/issues/30)) ([29d517a](https://github.com/hyperweavers/semantic-release-gitflow-sample/commit/29d517aaddbc1b8e5238cc6b3e6245c893b55b9f))
+
+# [1.1.0-rc.1](https://github.com/hyperweavers/semantic-release-gitflow-sample/compare/v1.0.0...v1.1.0-rc.1) (2020-09-17)
+
+
+### Features
+
+* add feature 2 ([#27](https://github.com/hyperweavers/semantic-release-gitflow-sample/issues/27)) ([777a2e6](https://github.com/hyperweavers/semantic-release-gitflow-sample/commit/777a2e6a357be53b28f1c9dda9a9e642c3b9b59e))
+
 ## [1.0.1](https://github.com/hyperweavers/semantic-release-gitflow-sample/compare/v1.0.0...v1.0.1) (2020-09-17)
 
 
